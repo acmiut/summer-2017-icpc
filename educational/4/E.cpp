@@ -5,7 +5,7 @@ using namespace std;
 int main() {
   string s, t;
   while (cin >> s >> t) {
-    int sp = 0, tp = 0;
+    int sp = 0, tp = 0;  // s_pointer and t_pointer
     while (sp < s.size() && tp < t.size()) {
       if (s[sp] == t[tp]) {
         sp++; tp++;
